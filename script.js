@@ -1,6 +1,6 @@
 // Hier kommt später die Adresse des E-Mail-Speichers hinein (z. B. ein Formular-Dienst in CH/EU).
 // Solange das leer ist, wird NICHTS gespeichert und die Seite sagt das auch ehrlich.
-const ENDPOINT = "";
+const ENDPOINT = "https://formspree.io/f/xbgdoegj";
 
 document.querySelectorAll("form.warteliste").forEach((form) => {
   const meldung = form.querySelector(".meldung");
